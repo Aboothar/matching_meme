@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsWon = [];
 
     const cardArray = [
-        { name: 'card1', img: 'images/distracted.png' },
-        { name: 'card1', img: 'images/distracted.png' },
+        { name: 'card1', img: 'images/bullet-cat.png' },
+        { name: 'card1', img: 'images/bullet-cat.png' },
         { name: 'card2', img: 'images/drake.png' },
         { name: 'card2', img: 'images/drake.png' },
         { name: 'card3', img: 'images/fine.png' },
@@ -16,7 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'card4', img: 'images/rollsafe.png' },
         { name: 'card5', img: 'images/success.png' },
         { name: 'card5', img: 'images/success.png' },
-        // ...add more pairs as needed
+        { name: 'card6', img: 'images/crying-cat.png' },
+        { name: 'card6', img: 'images/crying-cat.png' },
+        // you can add more pairs as needed, just make sure to resize the images to same size as the other images in the array.
     ];
 
     function shuffle(array) {
